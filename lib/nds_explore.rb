@@ -9,5 +9,5 @@ end
 
 def print_first_directors_movie_titles
   #directors_database.first[:movies].each["#{||}"]
-  directors_database.first[:movies].map {|movie_data| movie_data[:title]}
+  puts directors_database.first[:movies].map {|movie_data| movie_data[:title]}
 end
